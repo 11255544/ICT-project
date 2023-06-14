@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class CameraFolow : MonoBehaviour
 {
-    // Start is called before the first frame update
+ public transform targrt;
+ 
+ private void LateUpdate();
+ {
+    if (target.position.y>transform.position.y)
+    {
+    Vector3 newPositon = new Vector3 (transform.position.x, target.position.y)
+ // Start is called before the first frame update
     void Start()
     {
         
