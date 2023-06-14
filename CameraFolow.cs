@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraFolow : MonoBehaviour
 {
- public transform targrt;
+ public transform targert;
  
  private void LateUpdate();
  {
